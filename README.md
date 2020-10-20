@@ -37,5 +37,16 @@ b. run 3 queries from GBQ
 c. each of these queries will be placed into their own txt file and then uploaded the the new db of Wedge_Task_3.db
 
 
+## Feedback
+
+Looks good! You're done. A few notes as I was reading your code: 
+
+* Your check of `filename.startswith("._")` is very specific. It might be better to test something like whether or not the file ends in CSV or ZIP or 
+whatever you need.
+* Strive for maximum file width of 80 characters. Some of your comments run over, which is fine, but just put them on the next line. This helps 
+improve readability across platforms. 
+* You still have comments like `# change this to your authentication information`. It's okay to delete comments I wrote!
+* Good on you for writing the delete tables stuff. I often will set a flag like `clean_up = False` and then have a section that says `if clean_up :` which holds
+the deletion code. That way I never accidentally run it when I'm running all the cells (thoughtlessly). 
 
 
