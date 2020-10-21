@@ -46,7 +46,8 @@ b. run 3 queries from GBQ
     
        - shows the total spend by prodcut description
        
-      -this query will be in a join that is required to utilize the department numbers from the wedge        ocument provided by Professor John Chandler
+      -this query will be in a join that is required to utilize the department numbers from the wedge document provided by Professor John Chandler
+      
 c. each of these queries will be placed into their own txt file and then uploaded the the new db of Wedge_Task_3.db
 
 
