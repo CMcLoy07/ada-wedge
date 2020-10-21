@@ -21,7 +21,9 @@ c. load files to GBQ database
 For task one, the following items are done: 
 
 a. connect to GBQ
+
 b. write owner query in GBQ to utilize in Python
+
 c. Use pythong to pull query and write to txt file for analysis
 
 ### Task 3
@@ -29,14 +31,22 @@ c. Use pythong to pull query and write to txt file for analysis
 For task one, the following items are done: 
 
 a. create a new database "Wedge_Task_3.db"
+
 b. run 3 queries from GBQ
+
     1. sales by date, by hour
+    
        -show the total spend in the store, number of transactions, and the number of items sold
+       
     2. sales by owner by year by month
+    
        - show the sales by owners by date
+       
     3. sales by product description by year by month
+    
        - shows the total spend by prodcut description
-      -this query will be in a join that is required to utilize the department numbers from the wedge              document provided by Professor John Chandler
+       
+      -this query will be in a join that is required to utilize the department numbers from the wedge        ocument provided by Professor John Chandler
 c. each of these queries will be placed into their own txt file and then uploaded the the new db of Wedge_Task_3.db
 
 
