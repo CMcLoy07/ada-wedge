@@ -11,7 +11,9 @@ The ipynb file for this notebook contains all parts to complete each task. You w
 For task one, the following items are done: 
 
 a. unzips the large 15gb files
+
 b. cleans the files by removing nulls, placing headers on all files, and changes delimiters to comma separated
+
 c. load files to GBQ database
 
 ### Task 2
